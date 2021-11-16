@@ -1,0 +1,294 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #ffffff;
+}
+
+#menu{
+	background: #2E2E2E;
+	text-align: center;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+	display: inline-block;
+			
+}
+
+#menu ul li a{
+	color: #DBDBDB;
+	text-decoration: none;
+	display: block;
+	padding: 20px;		
+}
+
+#menu ul li a:hover{
+	background: white;
+}
+
+#contenido{
+	width: 70%;
+	border: 1px solid black;
+	margin: 15px auto;
+	background: none;
+}
+
+.articulos{
+	padding: 15px;
+}
+
+
+.ordenar{
+	clear: both;
+}
+
+#noticias{
+	float: left;
+	width: 70%;
+	min-height: 300px;
+	background: #ffffff;
+}
+
+.fotos{
+	text-align: center;
+	padding: 20px;
+}
+
+.foto1{
+	width: 370px;
+}
+
+.foto2{
+	width: 370px;
+}
+
+aside{
+	float: left;
+	width: 30%;
+	background: none;
+	min-height: 300px;
+}
+
+footer{
+	line-height: 17px;
+	background: #d1d1d1;
+	text-align: center;
+	color: black;
+}
+
+.redes{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon{
+	color: white;
+	text text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook{
+	background: #2E406E;
+	border-radius: 1rem 0 0 0;
+}
+
+.icon-instagram{
+	background: #2E406E;
+}
+
+.icon-youtube{
+	background: #2E406E;
+	border-radius: 0 0 0 1rem;
+}
+
+
+.tabla {
+    min-height: 770px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.tabla{
+    display: block;
+    text-align: center;
+}
+
+.testudios {
+    background: #f2f2f2;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	background-color: #9E9E9E;
+}
+
+.grid-item {
+  	background-color: #d1d1d1;
+  	border: 1.5px solid rgba(0, 0, 0, 0.8);
+  	padding: 10px;
+  	
+  	text-align: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+#galeria{
+	float: left;
+	min-height: 300px;
+	background: #ffffff;
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.res:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.etiqueta {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+}
+
+
+label {
+    margin-top: 7px;
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+}
+
+.texto {
+    float: left;
+    width: 75%;
+    margin-top: 5px;
+}
+
+.etiqueta{
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+}
+
+.texto{
+	float: left;
+	width: 75%;
+	margin-top: 5px;
+}
+
+input[type=text],input[type=email], select, textarea {
+  	margin-top: 5px;
+  	width: 90%;
+  	padding: 9px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	resize: none;
+}
+
+input[type=submit] {
+	background-color: #727272;
+  	color: white;
+  	padding: 9px 17px;
+  	border: none;
+  	border-radius: 10px;
+  	cursor: pointer;
+  	float: right;
+}
+
+.res:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+label {
+	margin-top: 7px;
+	padding: 5px 5px 5px 0;
+  	display: inline-block;
+}
+.contactar{
+	margin: auto;
+	border: 1px solid black;
+  	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 10px;
+  	width: 700px;
+}
+
+
+#proyectos{
+	width: 70%;
+	margin: 15px auto;
+	background: none;
+}
